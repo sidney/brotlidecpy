@@ -8,9 +8,9 @@ of a platform-specific shared library.
 This library is written all in versions 2 and 3 compatible Python for the special case in
 which it is not practical to package or require platform-specific binaries. It includes only
 the decompression function, under the assumption that will be the most common use-case that
-might have that restriction, and is hundreds of times slower then the reference `brotli`.
+might have that restriction. It is hundreds of times slower than the reference `brotli`.
 
-This project is a hand port of the decompression portion of the Javascript project that is
+This is a hand port of the decompression portion of the Javascript project that is
 itself a hand port of the C code of the reference implementation.
 
 * JavaScript port of brotli [brotli.js](https://github.com/devongovett/brotli.js)
