@@ -1,0 +1,3 @@
+test/testdata/* binary
+_brotlidecpy/brotli-dict binary
+test/lib/brotli-dict binary
