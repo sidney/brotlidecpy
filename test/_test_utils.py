@@ -15,7 +15,7 @@ import unittest
 
 
 project_dir = os.path.abspath(os.path.join(__file__, '..', '..'))
-src_dir = os.path.join(project_dir, '_brotlidecpy')
+src_dir = os.path.join(project_dir, 'brotlidecpy')
 test_dir = os.path.join(project_dir, 'test')
 
 python_exe = sys.executable or 'python'
