@@ -13,7 +13,7 @@ kBitMask = [
 class BrotliBitReader:
     """Wrap a bytes buffer to enable reading 0 < n <=24 bits at a time, or transfer of arbitrary number of bytes"""
     def __init__(self, input_buffer):
-        self.buf_ = input_buffer
+        self.buf_ = bytearray(input_buffer)
         self.buf_len_ = len(input_buffer)
         self.pos_ = 0          # byte position in stream
         self.bit_pos_ = 0      # current bit-reading position in current byte (number bits already read from byte, 0-7)
