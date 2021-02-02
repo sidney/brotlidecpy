@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.3] - \*\*put date here\*\*
+
+### Changed
+
+- Optimized read_symbol to read 16 bits at a time as is done in the C reference implementation
+
 ## [1.0.2] - 2021-02-02
 
 ### Added

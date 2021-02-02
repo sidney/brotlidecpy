@@ -105,14 +105,15 @@ def decode_meta_block_length(br):
 
 def read_symbol(table, index, br):
     """Decodes the next Huffman code from bit-stream. table is array of nodes in a huffman tree, index points to root"""
-    index += br.read_bits(HUFFMAN_TABLE_BITS, 0)  # peek at next byte to find the huffman table to use
-    nbits = table[index].bits - HUFFMAN_TABLE_BITS  # If this table requires more than a byte will have to read more
+    x_bits = br.read_bits(16, 0)  # The C reference version assumes 15 is the max needed and uses 16 in this function
+    index += (x_bits & HUFFMAN_TABLE_MASK)
+    nbits = table[index].bits - HUFFMAN_TABLE_BITS
+    skip = 0
     if nbits > 0:
-        br.read_bits(None, HUFFMAN_TABLE_BITS)  # advance past the byte that was already peeked at
-        index += table[index].value   # get next table node in the tree, linked from the first one that was found
-        index += br.read_bits(nbits, 0)  # and peek to find the next node in the tree to use
-    br.read_bits(None, table[index].bits)  # finally we have the table entry that says how many more bits to advance
-    return table[index].value              # and what value to return for the symbol
+        skip = HUFFMAN_TABLE_BITS
+        index += table[index].value + ((x_bits >> HUFFMAN_TABLE_BITS) & br.kBitMask[nbits])
+    br.read_bits(None, skip + table[index].bits)
+    return table[index].value
 
 
 def read_huffman_code_lengths(code_length_code_lengths, num_symbols, code_lengths, br):
