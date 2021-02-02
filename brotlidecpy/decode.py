@@ -104,15 +104,15 @@ def decode_meta_block_length(br):
 
 
 def read_symbol(table, index, br):
-    """Decodes the next Huffman code from bit-stream."""
-    index += br.peek_bits(HUFFMAN_TABLE_BITS)
-    nbits = table[index].bits - HUFFMAN_TABLE_BITS
+    """Decodes the next Huffman code from bit-stream. table is array of nodes in a huffman tree, index points to root"""
+    index += br.read_bits(HUFFMAN_TABLE_BITS, 0)  # peek at next byte to find the huffman table to use
+    nbits = table[index].bits - HUFFMAN_TABLE_BITS  # If this table requires more than a byte will have to read more
     if nbits > 0:
-        br.skip_bits(HUFFMAN_TABLE_BITS)
-        index += table[index].value
-        index += br.peek_bits(nbits)
-    br.skip_bits(table[index].bits)
-    return table[index].value
+        br.read_bits(None, HUFFMAN_TABLE_BITS)  # advance past the byte that was already peeked at
+        index += table[index].value   # get next table node in the tree, linked from the first one that was found
+        index += br.read_bits(nbits, 0)  # and peek to find the next node in the tree to use
+    br.read_bits(None, table[index].bits)  # finally we have the table entry that says how many more bits to advance
+    return table[index].value              # and what value to return for the symbol
 
 
 def read_huffman_code_lengths(code_length_code_lengths, num_symbols, code_lengths, br):
@@ -128,8 +128,8 @@ def read_huffman_code_lengths(code_length_code_lengths, num_symbols, code_length
 
     while (symbol < num_symbols) and (space > 0):
         p = 0
-        p += br.peek_bits(5)
-        br.skip_bits(table[p].bits)
+        p += br.read_bits(5, 0)
+        br.read_bits(None, table[p].bits)
         code_len = table[p].value & 0xff
         if code_len < kCodeLengthRepeatCode:
             repeat = 0
@@ -222,8 +222,8 @@ def read_huffman_code(alphabet_size, tables, table, br):
                 break
             code_len_idx = kCodeLengthCodeOrder[i]
             p = 0
-            p += br.peek_bits(4)
-            br.skip_bits(huff[p].bits)
+            p += br.read_bits(4, 0)
+            br.read_bits(None, huff[p].bits)
             v = huff[p].value
             code_length_code_lengths[code_len_idx] = v
             if v != 0:

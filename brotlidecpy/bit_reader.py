@@ -23,28 +23,32 @@ class BrotliBitReader:
         self.pos_ = 0
         self.bit_pos_ = 0
 
-    def peek_bits(self, n_bits):
-        """Get value a n_bits unsigned integer treating input as little-endian byte stream, without advancing pointer"""
+    def read_bits(self, n_bits, bits_to_skip=None):
+        """Get n_bits unsigned integer treating input as little-endian byte stream, maybe advancing input buffer pointer
+        n_bits: is number of bits to read from input buffer. Set to None or 0 to seek ahead ignoring the value
+        bits_to_skip: number of bits to advance in input_buffer, defaults to n_bits if it is None
+           pass in 0 to peek at the next n_bits of value without advancing
+        It is ok to have n_bits and bits_to_skip be different non-zero values if that is what is wanted
+        Returns: the next n_bits from the buffer as a little-endian integer, 0 if n_bits is None or 0
+        """
         val = 0
-        bytes_shift = 0
-        buf_pos = self.pos_
-        bit_pos_when_done = n_bits + self.bit_pos_
-        while bytes_shift < bit_pos_when_done:
-            if buf_pos >= self.buf_len_:
-                break  # if hit end of buffer, this simulates zero padding after end, which is correct
-            val |= self.buf_[buf_pos] << bytes_shift
-            bytes_shift += 8
-            buf_pos += 1
-        return (val >> self.bit_pos_) & kBitMask[n_bits]
-
-    def skip_bits(self, n_bits):
-        next_in_bits = self.bit_pos_ + n_bits
-        self.bit_pos_ = next_in_bits & 7
-        self.pos_ += next_in_bits >> 3
-
-    def read_bits(self, n_bits):
-        val = self.peek_bits(n_bits)
-        self.skip_bits(n_bits)
+        if bits_to_skip is None:
+            bits_to_skip = n_bits
+        if n_bits:
+            bytes_shift = 0
+            buf_pos = self.pos_
+            bit_pos_when_done = n_bits + self.bit_pos_
+            while bytes_shift < bit_pos_when_done:
+                if buf_pos >= self.buf_len_:
+                    break  # if hit end of buffer, this simulates zero padding after end, which is correct
+                val |= self.buf_[buf_pos] << bytes_shift
+                bytes_shift += 8
+                buf_pos += 1
+            val = (val >> self.bit_pos_) & kBitMask[n_bits]
+        if bits_to_skip:
+            next_in_bits = self.bit_pos_ + bits_to_skip
+            self.bit_pos_ = next_in_bits & 7
+            self.pos_ += next_in_bits >> 3
         return val
 
     def copy_bytes(self, dest_buffer, dest_pos, n_bytes):

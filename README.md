@@ -3,7 +3,7 @@
 The `brotli` module that is in PyPI provides Python bindings to the fast C reference
 implementation of [RFC 7932](https://tools.ietf.org/html/rfc7932), and is the preferred
 one to use for most purposes. One limitation to its use is that it requires installation
-of a platform-specific shared library.
+of a platform-specific shared binary executable.
 
 This library is written all in versions 2 and 3 compatible Python for the special case in
 which it is not practical to package or require platform-specific binaries. It includes only
@@ -18,7 +18,7 @@ itself a hand port of the C code of the reference implementation.
 
 ### Installation and Usage
 
-Copy the top level file `brotlidecpy.py` and the directory `_brotlidecpy` to a directory  
+Copy the top level file `brotlidecpy.py` and the directory `brotlidecpy` to a directory  
 that will be in `PYTHONPATH` at runtime.
 
 The following code will take a byte-like object, e.g. a bytearray or byte-string,
@@ -31,7 +31,7 @@ that contains brotli compressed data, and return one with the uncompressed data
 ### Running the integration tests
 With a copy of the entire `test` directory, set PYTHONPATH to the directory containing
 `brotlidecpy.py`, which may or may not be the same directory that contains `test`,
-and run the command (suitable modified for the current directory you are using)
+and run the command (suitably modified for the current directory you are using)
 
     python test/decompresstest.py
 
