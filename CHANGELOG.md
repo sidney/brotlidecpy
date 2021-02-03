@@ -1,10 +1,13 @@
 # Changelog
 
-## [1.0.3] - \*\*put date here\*\*
+## [1.0.3] - \\put release date here\\
 
 ### Changed
 
 - Optimized read_symbol to read 16 bits at a time as is done in the C reference implementation
+- Fixed issue with compressed input that contains data split across multiple metadata blocks
+- Some changes to unit/integration tests to better support testing issues in compression format
+- Renamed test module to conform to pattern expected by unittest
 
 ## [1.0.2] - 2021-02-02
 

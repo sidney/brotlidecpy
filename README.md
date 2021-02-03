@@ -28,12 +28,13 @@ that contains brotli compressed data, and return one with the uncompressed data
 
     uncompressed_data = decompress(compressed_data)
 
-### Running the integration tests
+### Running the unit and integration tests
 With a copy of the entire `test` directory, set PYTHONPATH to the directory containing
-`brotlidecpy.py`, which may or may not be the same directory that contains `test`,
-and run the command (suitably modified for the current directory you are using)
+`brotlidecpy.py` (optional if it is the current directory), which may or may not be the same
+directory that contains `test`, and run the command (suitably modified for the current
+directory you are using)
 
-    python test/decompresstest.py
+    python -m unittest discover test
 
 
 ###### brotlidecpy is open-sourced under the MIT License, see the LICENSE file.
