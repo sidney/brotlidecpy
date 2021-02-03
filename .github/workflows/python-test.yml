@@ -1,7 +1,6 @@
 name: BrotliDecPy Testing
 on:
   push:
-    branches: [ test-github-actions ]
 jobs:
   build:
     runs-on: ubuntu-latest
