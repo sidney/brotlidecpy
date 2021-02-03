@@ -33,7 +33,7 @@ TESTDATA_FILES = [
 TESTDATA_PATHS = [os.path.join(TESTDATA_DIR, f) for f in TESTDATA_FILES]
 
 TESTDATA_PATHS_FOR_DECOMPRESSION = glob.glob(
-    os.path.join(TESTDATA_DIR, '*.compressed'))
+    os.path.join(TESTDATA_DIR, '*.compressed*'))
 
 TEMP_DIR = tempfile.mkdtemp()
 
@@ -45,6 +45,8 @@ def get_temp_compressed_name(filename):
 def get_temp_uncompressed_name(filename):
     return os.path.join(TEMP_DIR, os.path.basename(filename + '.unbro'))
 
+def get_uncompressed_name(test_data):
+    return test_data.rsplit('.compressed')[0]
 
 def bind_method_args(method, *args, **kwargs):
     return lambda self: method(self, *args, **kwargs)
@@ -69,7 +71,8 @@ def generate_test_methods(test_case_class,
     for method in [m for m in dir(test_case_class) if m.startswith('_test')]:
         for testdata in paths:
             for (opts_name, opts_dict) in opts:
-                f = os.path.splitext(os.path.basename(testdata))[0]
+                f_split = os.path.basename(testdata).rsplit('.compressed')
+                f = f_split[0]+f_split[1].replace('.', '_')
                 name = 'test_{method}_{options}_{file}'.format(
                     method=method, options=opts_name, file=f)
                 func = bind_method_args(
