@@ -1,0 +1,737 @@
+<!DOCTYPE html><html><head>
+<meta charset='utf-8'>
+<META NAME='ROBOTS' CONTENT='NOARCHIVE'>
+<META http-equiv='X-UA-Compatible' content='IE=edge'>
+<META NAME='format-detection' content='telephone=no'>
+<META NAME='apple-itunes-app' content='app-id=1192753879'>
+<link href='//ff74.b-cdn.net' rel='preconnect'>
+<link href='//adservice.google.com' rel='preconnect'>
+<link href='//googleads.g.doubleclick.net' rel='preconnect'><meta name="google-site-verification" content="azVIufmnM70GVsbIzGiT1xm8Au0WPBFf0rtJ-puqSQM" /><META NAME='viewport' content='width=device-width'><link rel="canonical" href="//www.fanfiction.net/s/13791057/7/A-Yule-Ball-Changes">
+<title>A Yule Ball Changes Chapter 7: Submerged Solution, a harry potter fanfic | FanFiction</title>
+<link rel='shortcut icon' href='/static/images/favicon_2010_site.ico'>
+<link rel='icon' type='image/png' href='/static/images/favicon_2010_site.png'>
+<link rel='apple-touch-icon' href='/static/images/favicon_2010_iphone.png'>
+<link rel='stylesheet' href='/static/styles/xss26.css?v=1.0.0'>
+<script src='/static/scripts/combo5.js?v=1.0.0'></script>
+<!--[if lt IE 8]>
+        <link rel="stylesheet" href="/cors/fontello-f1bf7dee/css/fontello-ie7.css">
+        <script src='/static/scripts/json2.min.js'></script>
+        <![endif]-->
+<script>
+        xcookie_read();
+        xfont_auto_loader();
+        if(XCOOKIE.gui_font != 'Open Sans') {
+            document.write('<style>body{font-family:"'+XCOOKIE.gui_font+'",Verdana, Arial;}</style>');
+        }
+        </script>
+<style>
+        .dropdown-menu > li > a { padding: 3px 50px 3px 30px; }
+body { min-width:750px; height:100%; }
+.maxwidth { min-width:730px;margin-left:auto;margin-right:auto;}
+            
+
+
+        </style>
+<script>
+        if(isAndroid && !isChrome) {
+            document.write('<style> body {font-size:1em;}</style>');
+        }
+        </script>
+<script>
+
+                        xauto_width_init();
+                        xauto_fontsize();
+
+                        if(!isIphone && !isIpad) {
+                            $(function() {
+                                $(window).resize(xauto_width);
+                            });
+                        }
+
+                    </script></head><body style='background-color:#E4E3D5;margin-top:0px;'><script>xfont_fix_smooth();</script>
+<div id=top style='width:100%;background-color: #333399; '>
+<div class='menulink maxwidth' style='padding:0.5em 10px 0.5em 10px; vertical-align:middle;'>
+<script>
+//init jquery
+if (!window.jQuery) {
+  var jq = document.createElement('script'); jq.type = 'text/javascript';
+  jq.src = '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js';
+  document.getElementsByTagName('head')[0].appendChild(jq);
+  console.log('loading preq: jquery');
+}
+
+
+ var _fp = {
+    logout : function() {
+            $.get('/logout.php', function() {
+            console.log('starting logout');
+                     var m = $('#_fp_modal_logged_out');
+                    if(!m.length) {
+                        $('body').append("<div id='_fp_modal_logged_out' data-backdrop='static' class='modal fade hide'><div class='modal-body'><div align=cener>You have successfully logged out. <span onClick='' type=button class='btn icon-edit-1'>Login</span> <span onClick='' type=button class='btn icon-edit-1'>Stay on this Page</span></div></div></div>");
+                        m = $('#_fp_modal_logged_out');
+                    }
+
+                    m.modal();
+
+                     console.log('modal finished');
+                    //xtoast('You have been logged out.');
+                    if(_fp.cb_loggedout) _fp.cb_loggedout();
+                     console.log('callback complete');
+            })
+          .fail(function() {
+            //m.modal('hide');
+            xtoast('An error has ocurred. Please try again later.');
+          });
+            //
+    }
+};
+
+//real function
+
+
+        </script>
+<script>
+function render_login(uname) {
+     var s = "<a href='/login.php?cache=bust' style='color:orange;'>"+uname+"</a> | <span id='' xonClick='_fp.logout();' onclick=\"location = '/logout.php';\" style='color:white;cursor: pointer;'>Logout</span>";
+     return s;
+}
+
+</script>
+<span id=name_login class=pull-right>
+<script>
+if(XUNAME) {
+    document.write(render_login(XUNAME));
+}
+else {
+    document.write("<a href='/login.php?cache=bust' style='color:white;'><span class='icon-lock' style='font-size:15px;position:relative;top:1px'></span> Login</a> | <a href='/signup.php' style='color:white;'>Sign Up</a>");
+}
+</script></span><a href='/' style='font-size:1.1em;border:none;'>FanFiction</a>&#160;&#160;<small>|</small>&#160;&#160;unleash your imagination <span class='icon-kub-mobile' style='font-size:14px;margin-left:10px;' title='Mobile Edition' onclick="location = '//m.fanfiction.net'"></span><span title='Fontastic Panel: UI Settings' class='icon-tl-text' style='font-size:14px;margin-left:10px;' onClick="_fontastic_init('ui'); $('#_fontastic_ui').modal('show');"></span></div>
+</div>
+<div style='width:100%;' class=zmenu>
+<div id=zmenu class='maxwidth' style='vertical-align:middle;padding:5px;'>
+<span class=zui>
+
+<table class='maxwidth'><tr><td valign=middle>
+<div class='dropdown xmenu_item'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>Browse <b class='caret'></b></a>
+<ul class='dropdown-menu'>
+<li class=disabled style='text-align:center'><a href='#'>Stories</a></li>
+<li><a href='/anime/'>Anime</a></li>
+<li><a href='/book/'>Books</a></li>
+<li><a href='/cartoon/'>Cartoons</a></li>
+<li><a href='/comic/'>Comics</a></li>
+<li><a href='/game/'>Games</a></li>
+<li><a href='/misc/'>Misc</a></li>
+<li><a href='/play/'>Plays</a></li>
+<li><a href='/movie/'>Movies</a></li>
+<li><a href='/tv/'>TV</a></li>
+<li class='disabled' style='text-align:center'><a href='#'>Crossovers</a></li>
+<li><a href='/crossovers/anime/'>Anime</a></li>
+<li><a href='/crossovers/book/'>Books</a></li>
+<li><a href='/crossovers/cartoon/'>Cartoons</a></li>
+<li><a href='/crossovers/comic/'>Comics</a></li>
+<li><a href='/crossovers/game/'>Games</a></li>
+<li><a href='/crossovers/misc/'>Misc</a></li>
+<li><a href='/crossovers/play/'>Plays</a></li>
+<li><a href='/crossovers/movie/'>Movies</a></li>
+<li><a href='/crossovers/tv/'>TV</a></li>
+</ul>
+</div>
+<div class='dropdown xmenu_item'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>Just In <b class='caret'></b></a>
+<ul class='dropdown-menu'>
+<li><a href='/j/0/0/0/'>All</a></li>
+<li><a href='/j/0/1/0/'>Stories: New</a><li>
+<li><a href='/j/0/2/0/'>Stories: Updated</a></li>
+<li class='divider'></li>
+<li><a href='/j/0/3/0/'>Crossovers: New</a><li>
+<li><a href='/j/0/4/0/'>Crossovers: Updated</a><li>
+</ul>
+</div>
+<div class='dropdown xmenu_item'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>Community <b class='caret'></b></a>
+<ul class='dropdown-menu'>
+<li><a href='/communities/general/0/'>General</a></li>
+<li><a href='/communities/anime/'>Anime</a></li>
+<li><a href='/communities/book/'>Books</a></li>
+<li><a href='/communities/cartoon/'>Cartoons</a></li>
+<li><a href='/communities/comic/'>Comics</a></li>
+<li><a href='/communities/game/'>Games</a></li>
+<li><a href='/communities/misc/'>Misc</a></li>
+<li><a href='/communities/movie/'>Movies</a></li>
+<li><a href='/communities/play/'>Plays</a></li>
+<li><a href='/communities/tv/'>TV</a></li>
+</ul>
+</div>
+<div class='dropdown xmenu_item'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>Forum <b class='caret'></b></a>
+<ul class='dropdown-menu'>
+<li><a href='/forums/general/0/'>General</a></li>
+<li><a href='/forums/anime/'>Anime</a></li>
+<li><a href='/forums/book/'>Books</a></li>
+<li><a href='/forums/cartoon/'>Cartoons</a></li>
+<li><a href='/forums/comic/'>Comics</a></li>
+<li><a href='/forums/game/'>Games</a></li>
+<li><a href='/forums/misc/'>Misc</a></li>
+<li><a href='/forums/movie/'>Movies</a></li>
+<li><a href='/forums/play/'>Plays</a></li>
+<li><a href='/forums/tv/'>TV</a></li> </ul>
+</div>
+<div class='dropdown xmenu_item'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>Betas <b class='caret'></b></a>
+<ul class='dropdown-menu'>
+<li class=disabled style='text-align:center'><a href='#'>All</a></li>
+<li><a href='/betareaders/all/anime/'>Anime</a></li>
+<li><a href='/betareaders/all/book/'>Books</a></li>
+<li><a href='/betareaders/all/cartoon/'>Cartoons</a></li>
+<li><a href='/betareaders/all/comic/'>Comics</a></li>
+<li><a href='/betareaders/all/game/'>Games</a></li>
+<li><a href='/betareaders/all/misc/'>Misc</a></li>
+<li><a href='/betareaders/all/play/'>Plays</a></li>
+<li><a href='/betareaders/all/movie/'>Movies</a></li>
+<li><a href='/betareaders/all/tv/'>TV</a></li>
+<li class='disabled' style='text-align:center'><a href='#'>Specific</a></li>
+<li><a href='/betareaders/anime/'>Anime</a></li>
+<li><a href='/betareaders/book/'>Books</a></li>
+<li><a href='/betareaders/cartoon/'>Cartoons</a></li>
+<li><a href='/betareaders/comic/'>Comics</a></li>
+<li><a href='/betareaders/game/'>Games</a></li>
+<li><a href='/betareaders/misc/'>Misc</a></li>
+<li><a href='/betareaders/play/'>Plays</a></li>
+<li><a href='/betareaders/movie/'>Movies</a></li>
+<li><a href='/betareaders/tv/'>TV</a></li>
+</ul>
+</div>
+</td>
+<td valign=middle>
+<script>
+                $(document).ready(function() {
+                    $('.xdrop_search').click(function() {
+                        var v = $(this).html();;
+
+                        $('#search_type').val(v.toLowerCase());
+                        $('#search_head').html(v);
+                    });
+
+                    $('#search_keywords').onEnterKey(function(){
+                        $('form#search_form').submit();
+                    });
+
+                });
+
+            </script>
+<FORM method=get id=search_form action='/search/' class='pull-right'>
+<div class='input-prepend'>
+<div class='btn-group'>
+<button class='btn dropdown-toggle' data-toggle='dropdown'>
+<span id=search_head>Story</span>
+<span class='caret'></span>
+</button>
+<ul class='dropdown-menu'>
+<li><a href='#' class=xdrop_search>Story</a></li>
+<li><a href='#' class=xdrop_search>Writer</a></li>
+<li><a href='#' class=xdrop_search>Forum</a></li>
+
+<li><a href='#' class=xdrop_search>Community</a></li>
+</ul>
+</div>
+<input class='span2' name='keywords' id=search_keywords type='text' placeholder='Search' title='Search'>
+
+</div>
+
+<input type=hidden name=ready value=1>
+<input type=hidden name=type id=search_type value=story>
+</FORM>
+</td>
+</tr>
+</table>
+</span>
+</div>
+</div>
+<div style='width:100%;' class=xcontrast_outer id=content_parent><div class='xcontrast maxwidth' id=content_wrapper style='background-color: white;'><div id=content_wrapper_inner style='padding:0.5em;'>
+<script>
+if(XCOOKIE.read_theme == 'dark') {
+     $(function(){
+        _fontastic_change_theme('dark');
+
+     });
+ }
+ else if(XCOOKIE.read_light_texture) {
+   _fontastic_change_texture(XCOOKIE.read_light_texture);
+ }
+
+ </script><div style='margin-bottom: 10px' class='lc-wrapper' id=pre_story_links><span class=lc-left><a class=xcontrast_txt href='/book/'>Books</a><span class='xcontrast_txt icon-chevron-right xicon-section-arrow'></span><a class=xcontrast_txt href="/book/Harry-Potter/">Harry Potter</a>
+</span>
+</div>
+<script>
+//_fontastic_theme_css();
+
+function toggleTheme() {
+    if(XCOOKIE.read_theme == 'light') {
+        _fontastic_change_theme('dark');
+    }
+    else {
+        _fontastic_change_theme('light');
+    }
+}
+</script><div id=img_large class='hide modal fade' style='color:black;'><div class='modal-body' align=center><img class='cimage ' style='padding:2px;border:1px solid #ccc;-moz-border-radius:2px;-webkit-border-radius:2px;' src='/static/images/d_60_90.jpg' width=180 height=240></div></div><div id=profile_top style='min-height:112px;'><button class='btn pull-right icon-heart' type=button onClick='$("#follow_area").modal();'> Follow/Fav</button><b class='xcontrast_txt'>A Yule Ball Changes</b>
+<span class='xcontrast_txt'><div style='height:5px'></div>By:</span> <a class='xcontrast_txt' href='/u/9996988/Rose00'>Rose00</a> <span class='icon-mail-1  xcontrast_txt'></span> <a class='xcontrast_txt' title="Send Private Message" href='https://www.fanfiction.net/pm2/post.php?uid=9996988'></a>
+<div style='margin-top:2px' class='xcontrast_txt'>Malfoys, they get what they want. When they can help it. Draco is infatuated with Hermione since he saw her at Yule Ball (in fourth year). He will go to any lengths to get her. Read how that changes the outcome of the war. Tried to keep canon characters but let's be real, its AU out and out. A bit of fluff, drama, romance and humour.</div>
+<span class='xgray xcontrast_txt'>Rated: <a class='xcontrast_txt' href='https://www.fictionratings.com/' target='rating'>Fiction M</a> - English - Humor/Drama - Hermione G., Draco M. - Chapters: 8 - Words: 17,491 - Favs: 3 - Follows: 5 - Updated: <span data-xutime='1610468030'>6m</span> - Published: <span data-xutime='1610232121'>1/9</span> - id: 13791057 </span>
+</div>
+<div align=center class='lc-wrapper' style='margin-top:10px;'><div class='lc'>
+<span class='xcontrast_txt'><span class='icon-tl-text' style='font-size:14px;cursor:pointer;' title="+ Font Size" onClick="_fontastic_change_size('u');"></span>+</span>&#160;&#160;<span class='xcontrast_txt'><span class='icon-tl-text' style='font-size:14px;cursor:pointer;' title="- Font Size" onClick="_fontastic_change_size('d');"></span>-</span>&#160;&#160;<span style='font-size:14px;cursor:pointer;' class='icon-tl-text xcontrast_txt' onclick="_fontastic_init('reading');$('#_fontastic_reading').modal('show');" title="Fonts"></span>&#160;&#160;
+<span class='icon-align-justify xcontrast_txt' onclick="$('#f_width').slideToggle();" style='font-size:14px' title="Story Width"></span> <span id=f_width class='hide xcontrast_txt'><span onclick='_fontastic_change_width(100);'>Full</span> <span onclick='_fontastic_change_width(75);'>3/4</span> <span onclick='_fontastic_change_width(50);'>1/2</span></span> &#160;&#160; <span class='icon-tl-text-height xcontrast_txt' onclick="$('#f_size').slideToggle();" style='font-size:14px;cursor:pointer;' title="Line Spacing"></span> <span id=f_size class='hide xcontrast_txt'> <span onclick='_fontastic_change_line_height("u");'>Expand</span> <span onclick='_fontastic_change_line_height("d");'>Tighten</span></span>&#160;&#160;<span class='xcontrast_txt icon-tl-contrast' onclick="toggleTheme();" style='margin-left:2px;margin-right:2px;font-size:14px;' align=absmiddle title="Story Contrast"></div></div>
+<span style='float:right; '><button class=btn TYPE=BUTTON onClick="self.location='/s/13791057/6/A-Yule-Ball-Changes'">&lt; Prev</button> <SELECT id=chap_select title="Chapter Navigation" Name=chapter onChange="self.location = '/s/13791057/'+ this.options[this.selectedIndex].value + '/A-Yule-Ball-Changes';"><option value=1>1. Chapter 1<option value=2>2. Chapter 2<option value=3>3. Christmas Eve<option value=4>4. Paris Alone<option value=5>5. Letters<option value=6>6. Suraj Mahal and all it entails<option value=7 selected>7. Submerged Solution<option value=8>8. POTTER</select> <button class=btn TYPE=BUTTON onClick="self.location='/s/13791057/8/A-Yule-Ball-Changes'">Next &gt;</button></span><div style='height:5px'></div><script>
+document.write('<style> .storytext { max-height: 999999px; width: '+XCOOKIE.read_width+'%; font-size:' + XCOOKIE.read_font_size + 'em; font-family: "'+XCOOKIE.read_font+'"; line-height: '+XCOOKIE.read_line_height+'; text-align: left;} </style>');
+
+$(function() {
+    $.get('/eye/0/1/55188814/13791057/');
+});
+</script>
+<div role='main' aria-label='story content' class='storytextp' id='storytextp' align=center style='padding:0 0.5em 0 0.5em;'>
+<div class='storytext xcontrast_txt nocopy' id='storytext'><p><em>A/N: Big fat lemons here. </em></p><p>Don't read past this warning / Mature Content Begins Here /</p><p><em>Short summary for those who'd rather skip:</em></p><p><em>We're back in school, Harry takes Parvati to the fifth floor Prefects bathroom to work on the clues, but get side-tracked. Features teenage hormones and a surprise appearance of Dobby later on:)</em></p><hr size=1 noshade><p>A black bikini top. It was obvious it was not her size, for her developing breasts spilled out the above and underneath, - the small triangular cut could not cover the entirety of her developing B-cups. Not large, they were firm and reacted a second after every movement she made<em>. </em>Harry was mesmerised by the jiggle.</p><p>Harry had invited Parvati along, following Cedric's hint to take it in the Prefects bathroom. Harry was disappointed he hadn't figured it out himself. He had seen a few Prefects, or Headboys and girls, visit, occasionally together. Harry had assumed it was an office, or common room of sorts. Never questioning why there were never more than three people at once.</p><p>The luxury of the bath more than made up for it, plus he still had an additional four years to go. His relationship with Parvati was going solid. It wasn't like anything Harry had ever come expected. Sure he had friends and the entirety of the Weasley family, but none of them drove him this <em>mad</em>. Eager, excitable, happy. It was earth-shattering, he couldn't comprehend to begin why he hadn't sought the company of any other witch.</p><p>Inadvertently, like most things did, it started with Hermione. When she had first suggested Harry kiss Parvati, he had been purely embarrassed. Reluctantly he had agreed, she had never given him wrong advice before, and he had thought, it might be expected of champions. <em>Doing the right thing</em>. A concept he thought unquestionable, until late.</p><p>The kiss wasn't earth-shattering, nor did it transform him. He just liked it. Her giggles of soft nerves reassured he was not alone. Parvati had the inuine ability to smile, it was a calming smile, ceasing his own butterflies. When they kissed; He enjoyed the feel of her hands clasping around his neck, holding on to him. As if she needed him, more than he her. He liked the red blush on her dark cheeks he had caused. He appreciated her, when she told him she bailed on her previous date for him. She appreciated him, giving her his first kiss. So they decided on a Hogsmeade weekend to see where it could go.</p><p>The success of Hogsmeade led to after lunch school. They had shared more kisses in between. Privately of-course, Harry was not an advocate of PDA. He had hoped to have the break to figure out what he wanted, where he saw it going. Again Hermione forced his hand. Inadvertently, that too, may have been a good thing. <em>Hell</em> it definitely was. <em>Lust</em> and <em>hormones</em> aside, meeting Sanjay Patel surely was.</p><p>Although well-behaved, that man had a crazed gleam in his eyes. Reminding Harry a lot of Moody in spirit. Within two hours, he had uncovered more secrets than Harry's two closest friends. Instead of exploiting his bared soul (AKA Dumbles), or being clueless/ignorant (AKA everyone else). Sanjay decided to counsel and guide him. Through that typical "protective father" act he had asked Harry to share his honest emotions and thoughts. Say what you will, Harry found his concern well-founded.</p><p>They had their first fight in Goa. A week in yoga, Harry learned the ability to re-watch memories in more vivid detail. He questioned Parvati's behaviour in the last week of term. Finding a little ingenuity somewhere. She denied, went in hysterics, then accused him. It was intense...They made it to second base that night. He laid sight of her bra-clad breasts, fondling them while she squeezed him, giving him his first hand-job. That was when ground-work on the relationship was laid.</p><p>Honesty for him. Loyalty for her. No PDA above all - he had relented to a caress of the hand and a kiss on the cheek, the latter if circumstances really required it. Harry was just embarking on sexual discovery, and as BWL and now 4th champion of hogwarts. Not ready for increased attention, press, students or otherwise.</p><p>He could speak of his fears, emotions in her doe-eyes without judgement. Her bright smile would ease him, and her soft kisses relaxed him. Parvati was an attractive witch who gossiped more than he liked, but he admired her Gryffindor. She stood up for what she believed in; no matter how absurd, making-up -<em>is that what it was called?</em>-, gossip, divination, and now, him. And he supposed, that was all that mattered.</p><p>/ Mature Content Begins Here /</p><p>"Merlin, Padma must have tiny breasts"</p><p>She was grinning seductively before she processed "Padma?"</p><p>Harry leered at her sinuous curves "It's evident that bra is a size too small pet,"</p><p>"Atleast, I surpassed her somewhere," she answered, a little dejectedly. It was safe to say the sisters weren't at all close. The Hogwarts champion rift Harry bought had not made it easier for Padma, who spent the holidays with their separated mother.</p><p>"You're better here" murmured Harry, pointing to her heart, before cupping the uncovered swell "This is just an added benefit,"</p><p>She chuckled before swatting his hand away "Is that all what boys think about?" she mock-reprimanded.</p><p>"When you look like that, <em>yes</em>" slurring the s, as he watched her slip out of her jeans. As she bent her breasts all but spilled out, he could see her dark nipples grazing the surface.</p><p>She giggled some more, <em>who knew Harry was such a charmer, </em>but she wanted to make him work some more, "Well then, do we start on the puzzle?"</p><p>"Let's soak up in the bath pet, I'll bring Hermi-"</p><p>Harry grinned as Parvati fervently threw herself on him. Trial and error had led him to believe Hermione's mention made her defensive, or offensive depending on the situation. He would've played the 'game' longer, but he hadn't been with her intimately for a while.</p><p><em>They had talked at length, but she held that insecurity. Normally Harry would feel bad at exploiting her weakness, but she looked so damn regal. She was testing his resolve, truly. </em></p><p>Their tongues lapped in a hot dance, as they always did, his hands staked to her arse-cheeks and cupped with all his might. She pressed into him, fingers twirling his locks. His hands reached for the bikini string, tugging hard. Nothing happened, he tugged again. Sending her a little back.</p><p>She looked at him, panting, before she pulled away.</p><p>"Parv-"</p><p>"Let's first make it into the water, and <em>talk</em>"</p><p>He groaned as he submissively followed her inside. When Parvati said talk, there was no knowing when it would end.</p><p>Sitting on opposite ends, they took in each other.</p><p>"<em>So</em>, this is a great bathroom" began Parvati, gazing around</p><p>He made some non-committal noise. A moment of silence filled them.</p><p>"How's your week been?"</p><p>He shrugged</p><p>"Can I get an answer?"</p><p>"Fine." he uttered,</p><p>"Charms Assignment?" she tried again, not hiding her grin</p><p>"E," he grit</p><p>She opened her mouth again, he cut her too it</p><p>"Parvati just how long do we '<em>talk'?"</em></p><p>"Harry, you have to woo me,"</p><p>"Parvati I'm your <em>boyfriend, </em>I haven't forgotten a single of our one month anniversairies, I'm always wooing you, perhaps I don-" <em>want to</em>? One look at her breasts and that line of thinking subsided "perhaps <em>you</em> ought to woo me,"</p><p>"Huh?"</p><p>"Yes, go on. Let's see who's better."</p><p>"Mm this seat is rather uncomfortable,"</p><p>"Really?" he asked with concern,</p><p>"Yes" she sighed, "Perhaps I'll just have to sit on your lap"</p><p>Harry's grin returned as she sauntered onto his lap, facing away. She dropped her head to his shoulders, giving him a peaking view of her bubbling glory.</p><p>"Better?"</p><p>"Uh no, my thighs hurt, maybe you can help, relax?" she murmured right in his ear. Harry's blood rushed down.</p><p>He caressed her thighs a few times, before slipping on underthigh and sneaking higher. And then, inner thigh.</p><p>"Mmm right there Harry, oh it hurts so much,"</p><p>"You saucy minx"</p><p>She giggled, flashing him her smile, and Harry automatically stretched to kiss her. It was soft, as his hands caressed his inner thighs. Eventually Parvati got tired of twisting, so she turned herself to face him on his lap.</p><p>Legs on either side, she slow-motion straddled him, their tongues were once more embroiled in a war. When they ran out of breath he kissed her along her jaw, her neck, her collar bone. As he fondled her arse, arching her back. Reaching her string bikini, Harry learned his lesson and pulled them above her tits.</p><p>Parvati gasped "HArry..you actually pulled it up?"</p><p>"Er, was I not supposed to?"</p><p>She giggled "I had it charmed to stay on, you see…"</p><p>"The string?"</p><p>She nodded, "Next time charm the whole piece Witch, or don't..." Harry's voice turned husky as he moved to lightly drum his fingers over her sensitive nipples. Parvati moaned "I will always find a way" he whispered in her ears</p><p>He then engulfed her right breast as his tongue lapped around her nipple. Mind in bliss he shifted her so she sat directly on his boner. She hooked her legs behind him, bringing them even closer. Suddenly a sense of urgency took over the teens. Parvati attacked his neck, biting hard - leaving a hickey his roommates would for certain see - he slid his fingers inside her bikini bottom.</p><p>She began furiously grinding on him.</p><p>A clatter on the ground shook them of their daze. They turned to see Dobby in the middle of the prefect's bathroom. He looked terrified and awe-struck in his big Elve eyes. In his hands, he held the camera. That <em>bloody</em> camera.</p><p>Parvati shrieked before she submerged in the water, keeping only essentials above surface. Harry rolled his eyes and turned to Dobby, with great control he mustered in a neutral tone<p>"Dobby is there a reason you are here?"</p><p>"Yes Great Master Harry Potter, Dobby was called by Great Master Ha-</p><p>"Master Harry will suffice Dobby" responded Harry calmly, the control in his voice astonishing</p><p>"Master Harry friend, Draco master. To give you the camera, to capture clues,"</p><p>"Clues." repeated Harry evenly.</p><p>"Yes Masters!" exclaimed the unaware house-elf</p><p>"Thank-you Dobby that will be all,"</p><p>"Wait-Dobby, Draco, he asked you to give it to Harry, right now?" cut in Parvati</p><p>"Yes Mistress Parvati. Dobbys told he was with you, said it very important great-uh Master Harry,"</p><p>"Alright,"</p><p>Dobby stared at them with bright open eyes "Dobby I order you to not repeat this to anyone, and that will be all for now,"</p><p>"<em>What an absolute piece of shite" </em>spit Harry.</p><p>"You told Draco Malfoy, what did you expect?"</p><p>"Not so eloquently, he must have out two and two together…" responded Harry thoughtfully</p><p>"I'm surprised he sent anything, he made it perfectly clear imagining me with someone was disgusting for him."<p>"What are you saying?" asked Parvati, his musings not making any sense.</p><p>"Let's get back at the slimy git"</p><p>Parvati grinned, which lessened as she learned of what Harry intended to do.</p>
+</div>
+</div><div style='height:5px'></div><div style='clear:both;text-align:right;'><button class=btn TYPE=BUTTON onClick="self.location='/s/13791057/6/A-Yule-Ball-Changes'">&lt; Prev</button> <SELECT id=chap_select title="Chapter Navigation" Name=chapter onChange="self.location = '/s/13791057/'+ this.options[this.selectedIndex].value + '/A-Yule-Ball-Changes';"><option value=1>1. Chapter 1<option value=2>2. Chapter 2<option value=3>3. Christmas Eve<option value=4>4. Paris Alone<option value=5>5. Letters<option value=6>6. Suraj Mahal and all it entails<option value=7 selected>7. Submerged Solution<option value=8>8. POTTER</select> <button class=btn TYPE=BUTTON onClick="self.location='/s/13791057/8/A-Yule-Ball-Changes'">Next &gt;</button></div><div style='height:5px'></div>
+<script>
+    function review_init() {
+         if(XUNAME) {
+             $('#review_name').hide();
+             $('#review_postbutton').html('Post Review as ' + XUNAME);
+             $('.login_items').hide();
+             $('#alert_subs').show();
+         }
+         else {
+             $('#review_name').show();
+             //$('#review_name').html("<input type=text name='name' placeholder='Name:'>");
+
+             $('.login_items').show();
+             $('#alert_subs').hide();
+         }
+    }
+
+    //call back
+    function login_success_default() {
+        //$('#name_login').html(render_login(XUNAME));
+
+        //focus on review
+        $('#review_review').focus();
+
+        //you have now logged in
+        xtoast("You have logged-in as "+XUNAME+'.');
+
+        //close all open dialogs
+        //$('#please_login').modal('hide');
+
+
+
+    }
+
+    function login_success() {
+         login_success_default();
+         review_init();
+    }
+
+    function self_login(target) {
+        xwindow('https://www.fanfiction.net/api/login_state_proxy.php?src=popup&target='+target,450,450);
+    }
+
+    function post_q() {
+        if(!XUNAME) {
+            please_login();
+            return;
+        }
+
+        if($('#q_follow_author').prop('checked') == 0 && $('#q_follow_story').prop('checked') == 0 && $('#q_fav_author').prop('checked') == 0 && $('#q_fav_story').prop('checked') ==0) {
+            xtoast('Please select at least one follow or favorite action');
+            return;
+        }
+
+        $('#q_working').toggle();
+
+        $.post('/api/ajax_subs.php', {
+            storyid: storyid,
+            userid: userid,
+
+            authoralert: $('#q_follow_author').prop('checked') ? 1 : 0,
+            storyalert: $('#q_follow_story').prop('checked') ? 1 : 0,
+            favstory: $('#q_fav_story').prop('checked') ? 1 : 0,
+            favauthor: $('#q_fav_author').prop('checked') ? 1 : 0
+        },
+        function(data) {
+            //console.log(data);
+            //alert(data);
+            if(data.error) {
+                $('#q_working').toggle();
+
+                xtoast("We are unable to process your request due to an network error. Please try again later.");
+            }
+            else {
+                xtoast("We have successfully processed the following:" + data.payload_data,3500);
+                $('#q_working').toggle();
+                $('#follow_area').modal('hide');
+             }
+        },
+        'json'
+        ).error(function() {
+            xtoast("We are unable to process your request due to an network error. Please try again later.");
+
+            $('#q_working').toggle();
+        });
+    }
+
+    function please_login() {
+         xtoast("Please login or signup to access this feature.");
+    }
+
+    function post_review() {
+        var review = $('#review_review').val();
+        var name = $('#review_name_value') ? $('#review_name_value').val() : '';
+
+        //make sure we don't submit default
+        if(review == '') {
+            xtoast("Please type up your review for this story.");
+            return;
+        }
+
+        $('#review_postbutton').html("Posting. Please wait...");
+        $('#review_postbutton').prop('disabled',true);
+
+        $.post('/api/ajax_review.php', {
+            storyid: storyid,
+            storytextid: storytextid,
+            chapter: chapter,
+
+            authoralert: $('#review_authoralert').prop('checked') ? 1 : 0,
+            storyalert: $('#review_storyalert').prop('checked') ? 1 : 0,
+            favstory: $('#review_favstory').prop('checked') ? 1 : 0,
+            favauthor: $('#review_favauthor').prop('checked') ? 1 : 0,
+
+            name: name,
+            review: review
+        },
+        function(data) {
+            //console.log(data);
+            //alert(data);
+            if(data.error) {
+                $('#review_postbutton').html('Post Review as'+XUNAME);
+                $('#review_postbutton').prop('disabled', false);
+
+                xtoast("We are unable to post your review due to the following reason:<br><br>" + data.error_msg);
+            }
+            else {
+                xtoast("The author would like to thank you for your continued support. Your review has been posted.",3500);
+                review_success();
+            }
+        },
+        'json'
+        ).error(function() {
+            xtoast("We are unable to process your review due to an network error. Please try again later.");
+
+            $('#review_postbutton').html("Post Review as"+XUNAME);
+            $('#review_postbutton').prop('disabled', false);
+        });
+
+    }
+
+    function review_success() {
+         $('#review').hide();
+         $('#review_success').show();
+
+         //must clear textarea of auto-save would save old data
+         $('#review_review').val('');
+         
+if(!$.storage) {
+    $.storage = new $.store();
+    //console.log('new storage');
+}
+$.storage.del('review:13791057:7');
+//console.log('del review:13791057:7');
+        
+    }
+
+    function review_failure() {
+
+    }
+
+    $().ready(function() {
+        review_init();
+    });
+</script>
+<div id='review_success' style='display:none;width:500px;height:100px;clear:both;margin-right:auto;margin-left:auto;'>
+The author would like to thank you for your continued support. Your review has been posted.
+</div>
+<div id=review>
+<table border=0 padding=0 cellspacing=0 style='width:100%;'> 
+<tr>
+<td width=336 valign=top> </td>
+<td width=10></td>
+<td valign=top>
+<div style='width:100%;max-width:700px;'>
+<table style='width:100%;'>
+<tr>
+<td colspan=2>
+<div id=review_name style=''> 
+<input class='input-block-level' style='max-width:700px' type=text name='name' id='review_name_value' maxlength=16 placeholder="Name:">
+<div style='height:4px'></div>
+</div>
+<textarea class='input-block-level' style='max-width:700px' rows=10 placeholder="Type your review for this chapter here..." name=review id=review_review></textarea>
+</td>
+</tr>
+<tr>
+<td style='vertical-align:middle;'>
+<div id='alert_subs' class='hide xcontrast_txt'>
+Favorite :
+Story <input style='margin:-2px 0 0 0' type=checkbox name=favstory id=review_favstory>
+Author <input style='margin:-2px 0 0 0' type=checkbox name=favauthor id=review_favauthor>
+&#160;
+Follow :
+Story <input style='margin:-2px 0 0 0' type=checkbox name=storyalert id=review_storyalert>
+Author <input style='margin:-2px 0 0 0' type=checkbox name=authoralert id=review_authoralert>
+</div>
+</td>
+<td align=right>
+
+<div class='btn-group xreset-left'>
+<button type='button' class='btn icon-edit-1' onClick='post_review();' id=review_postbutton>Post Review</button>
+<button type='button' class='btn dropdown-toggle login_items' data-toggle='dropdown'>
+<span class='sr-only '>As</span>
+<span class='caret '></span>
+</button>
+<ul class='dropdown-menu' role='menu'>
+<li><a href='#' onclick="self_login('self');" class=xdrop_login>FanFiction</a></li>
+<li><a href='#' onclick="self_login('sister');" class=xdrop_login>FictionPress</a></li>
+<li><a href='#' onclick="self_login('google');" lass=xdrop_login>Google</a></li>
+<li><a href='#' onclick="self_login('facebook');" class=xdrop_login>Facebook</a></li>
+<li><a href='#' onclick="self_login('twitter');" class=xdrop_login>Twitter</a></li>
+<li><a href='#' onclick="self_login('amazon');" class=xdrop_login>Amazon</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+<script src='//ff74.b-cdn.net/static/scripts/jquery.jstore_01_09_2012.js'></script>
+<script>
+$().ready(function(){
+
+    if(!$.storage) {
+        $.storage = new $.store(); //init
+    }
+
+    var t_read = $.storage.get('review:13791057:7');
+
+    if(t_read && t_read.length > 0 ) {
+        //alert('recovered data' + t_read);
+
+        var temp = $('textarea#review_review').val(); //NO SPACES .replace(/^\s+|\s+$/g,'')
+
+        if(!temp || temp.length == 0 || temp == "Type your comments here.") {
+            //alert('set good');
+            $('textarea#review_review').val(t_read);
+            //console.log('got'+t_read);
+        }
+    }
+    else {
+        //alert('no data');
+    }
+
+    var rTimer = setInterval(saveReview, 2000); //every 2s
+
+    function saveReview() {
+        var temp = $('textarea#review_review').val();  //make sure we don't save spaces .replace(/^\s+|\s+$/g,'');
+
+        if(temp && temp.length > 0 &&  temp != "Type your comments here.") {
+            $.storage.set('review:13791057:7', temp);
+            //console.log('set'+temp);
+        }
+    }
+});
+</script>
+<div style='height:15px'></div>
+<div align=center class=lc-wrapper><div class=lc>
+<FORM name=myselect onsubmit='return false;'><TABLE style='min-width;400px;margin-left:auto;margin-right:auto;' cellpadding=4>
+<TR>
+<TD>
+<script>
+  var storyid = 13791057;
+  var userid = 9996988;
+  var storytextid = storytextid=55188814;
+  var chapter = 7;
+  var title = 'A+Yule+Ball+Changes';
+  var logind = 'https://www.fanfiction.net';
+
+
+function select_drop(sel_value) {
+  var t;
+
+  if (sel_value == 'abuse') {
+      t = xwindow(logind+'/report.php?chapter='+chapter+'&storyid='+storyid+'&title='+title,560,510);
+  }
+  else if (sel_value == 'c2') {
+     t = xwindow(logind+'/c2_addstory.php?action=add&storyid='+storyid,560,470);
+  }
+}
+</SCRIPT>
+<div class='btn-group ' id='story_actions'>
+<div class='btn-group dropup' align=left>
+<button class='btn dropdown-toggle' data-toggle='dropdown'>
+<span>Actions</span>
+<span class='caret'></span>
+</button>
+<ul class='dropdown-menu'>
+<li><a onclick="select_drop('c2')">Add to Community</a></li>
+<li><a onclick="select_drop('abuse')">Report Abuse</a></li>
+</ul>
+</div>
+</div>
+<div class='btn-group ' id='share_providers'>
+<div class='btn-group dropup' align=left>
+<button class='btn dropdown-toggle' data-toggle='dropdown'>
+<span class='icon-share'> Share</span>
+</button>
+<ul class='dropdown-menu'>
+<li><a href='//plus.google.com/share?url=https%3A%2F%2Fwww.fanfiction.net%2Fs%2F13791057%2F7%2F' target=_new>Google+</a></li>
+<li><a href='//twitter.com/home?status=Reading+story%3A+https%3A%2F%2Fwww.fanfiction.net%2Fs%2F13791057%2F7%2F' target=_new>Twitter</a></li>
+<li><a href='//www.tumblr.com/share/link?url=https%3A%2F%2Fwww.fanfiction.net%2Fs%2F13791057%2F7%2F' target=_new>Tumblr</a></li>
+<li><a href='//www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.fanfiction.net%2Fs%2F13791057%2F7%2F' target=_new>Facebook</a></li>
+</ul>
+</div>
+</div>
+<button class='btn icon-heart' type=button onClick='$("#follow_area").modal();'> Follow/Favorite</button>
+<style>
+    label input[type=checkbox]{
+        position: relative;
+        vertical-align: middle;
+        bottom: -5px;
+    }
+</style>
+<div class='modal fade hide' id=follow_area>
+<div class='modal-body'>
+<center>
+<table style='padding:6px;color:black !important;'>
+<tr><td valign=top>
++ Follow
+<hr>
+<label class='checkbox'>
+<input type='checkbox' id=q_follow_story> Story
+</label>
+<label class='checkbox'>
+<input type='checkbox' id=q_follow_author> Writer
+</label>
+</td>
+<td width=20></td>
+<td valign=top>
++ Favorite
+<hr>
+<label class='checkbox'>
+<input type='checkbox' id=q_fav_story> Story
+</label>
+<label class='checkbox'>
+<input type='checkbox' id=q_fav_author> Writer
+</label>
+</td>
+</tr>
+</table>
+</center>
+</div>
+<div class='modal-footer'>
+<span class='btn pull-left' data-dismiss='modal'>Close</span>
+<span id='q_working' class='hide'>Working...&nbsp;&nbsp;</span>
+<span class='btn btn-primary' onClick='post_q();'>Save</span>
+</div>
+</div>
+</TD>
+</TR>
+</TABLE></form>
+</div></div>
+<div style='height:5px'></div></div></div></div><div id=p_footer class=maxwidth style='clear:all;padding:1em 0 1em 0;'><div style='text-align:center'><a href='/support/'>Help</a> . <a href='/cookies/'>Cookies</a> . <a href='/privacy/'>Privacy</a> . <a href='/tos/'>Terms of Service</a> . <a href='#top'>Top</a></div><div style='height:10px'></div><div style='text-align:center'><a href='//www.twitter.com/fictionpress'><span class='icon-twitter-3' style='color:rgb(104, 100, 100);font-size:18px;height:20px;width:20px;'></span></a></div><div style='height:15px'></div></div>
+<script>
+$(function() {
+    $('img.lazy').lazyload({
+        //skip_invisible : false
+    });
+});
+</script>
+<style>
+    .hv_center {
+        bottom: 0px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        height: 55px;
+        background-color: #363636;
+        color: #e4e4e4;
+
+        /* IE 10 */
+        display:-ms-flexbox;
+        -ms-flex-pack:center;
+        -ms-flex-align:center;
+
+        /* FF */
+        display:-moz-box;
+        -moz-box-pack:center;
+        -moz-box-align:center;
+
+        /* Safari, Opera, and Chrome */
+        display:-webkit-box;
+        -webkit-box-pack:center;
+        -webkit-box-align:center;
+    }
+
+    #cookie_notice {
+        font-size: 0.9em;
+    }
+    #cookie_notice a:link, 
+    #cookie_notice a:hover, 
+    #cookie_notice a:active, 
+    #cookie_notice a:visited {
+        color: #e4e4e4;
+        text-decoration: underline;
+    }
+</style>
+<script>
+    var _cookie_policy = 'cookies';
+
+    //cookie functions
+    function _sCookieGet(cookieName) {
+        var theCookie=""+document.cookie;
+        var ind=theCookie.indexOf(cookieName);
+        if (ind==-1 || cookieName=="") return false;
+        var ind1=theCookie.indexOf(';',ind);
+        if (ind1==-1) ind1=theCookie.length;
+        return unescape(theCookie.substring(ind+cookieName.length+1,ind1));
+    };
+    function _sCookieSet(NameOfCookie, value, expirehours, path, domain) {
+        if(!path)  path = "/";
+        var ExpireDate = new Date ();
+        ExpireDate.setTime(ExpireDate.getTime() + (expirehours * 3600 * 1000));
+        document.cookie = NameOfCookie + "=" + escape(value) + (!expirehours ? "" : "; expires=" + ExpireDate.toGMTString()) + "; path="+path+";" +(!domain ? "" : "domain=" + domain + ";");
+    };
+
+    function _cookieAccept() {
+        _sCookieSet(_cookie_policy,'yes',365 * 24,'/');
+        document.getElementById('cookie_notice').style.display = 'none';
+    }
+
+    var c = _sCookieGet(_cookie_policy)
+
+    if(c != "yes") {
+        document.write("<div id='cookie_notice' class='hv_center'>" +
+            "    <div style='padding-left:50px;padding-right:50px'>" +
+            "        <table>" +
+            "            <tr>" +
+            "                <td> We use cookies. By using our services, you acknowledge that you have read and accept our <a href='/cookies/'>Cookies</a> & <a href='/privacy/'>Privacy</a> Policies.</td>" +
+            "                <td><div style='border:1px whitesmoke solid;padding:5px;margin-left:10px;cursor: pointer;' onClick='_cookieAccept()'>Accept</div></td>" +
+            "            </tr>" +
+            "        </table>" +
+            "    </div>" +
+            "</div>");
+    }
+</script>
+</body></html>

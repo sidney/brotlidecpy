@@ -354,16 +354,7 @@ def jump_to_byte_boundary(br):
 
 def brotli_decompress_buffer(input_buffer):
     br = BrotliBitReader(input_buffer)
-    decode_window_bits(br)
-    out = decode_meta_block_length(br)
-    decompressed_size = out.meta_block_length
-    output_buffer = bytearray([0] * decompressed_size)
-    br.reset()
-    brotli_decompress_br_to_buffer(br, output_buffer)
-    return output_buffer
-
-
-def brotli_decompress_br_to_buffer(br, output_buffer):
+    output_buffer = bytearray([])
     pos = 0
     input_end = 0
     max_distance = 0
@@ -406,6 +397,9 @@ def brotli_decompress_br_to_buffer(br, output_buffer):
 
         if meta_block_remaining_len == 0:
             continue
+
+        if len(output_buffer) < (pos + meta_block_remaining_len):
+            output_buffer.extend(bytearray([0] * meta_block_remaining_len))
 
         if is_uncompressed:
             copy_uncompressed_block_to_output(meta_block_remaining_len, pos, output_buffer, br)
@@ -471,8 +465,8 @@ def brotli_decompress_br_to_buffer(br, output_buffer):
                 kInsertLengthPrefixCode[insert_code].nbits)
             copy_length = kCopyLengthPrefixCode[copy_code].offset + br.read_bits(
                 kCopyLengthPrefixCode[copy_code].nbits)
-            prev_byte1 = output_buffer[pos - 1]
-            prev_byte2 = output_buffer[pos - 2]
+            prev_byte1 = output_buffer[pos - 1] if pos > 0 else 0
+            prev_byte2 = output_buffer[pos - 2] if pos > 1 else 0
             for j in range(0, insert_length):
                 if block_length[0] == 0:
                     decode_block_type(num_block_types[0], block_type_trees, 0, block_type, block_type_rb,
@@ -557,7 +551,8 @@ def brotli_decompress_br_to_buffer(br, output_buffer):
                     raise Exception("Invalid backward reference. pos: %s distance: %s len: %s bytes left: %s" % (
                         pos, distance, copy_length, meta_block_remaining_len))
 
-                for j in range(0, copy_length):
+                for j in range(0, copy_length):  # don't try to optimize with a slice. source and dest may overlap
                     output_buffer[pos] = output_buffer[pos - distance]
                     pos += 1
                     meta_block_remaining_len -= 1
+    return output_buffer
