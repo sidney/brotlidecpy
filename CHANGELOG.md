@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.3] - \\put release date here\\
+## [1.0.3] - 2021-02-05
 
 ### Changed
 
