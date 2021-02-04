@@ -8,6 +8,8 @@
 - Fixed issue with compressed input that contains data split across multiple metadata blocks
 - Some changes to unit/integration tests to better support testing issues in compression format
 - Renamed test module to conform to pattern expected by unittest
+- Unit tests can now test using multiple compressed versions of each uncompressed example file 
+- Fixed error revealed by one of the newly tested cases involving an edge case in compressed format
 
 ## [1.0.2] - 2021-02-02
 

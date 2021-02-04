@@ -10,7 +10,7 @@ which it is not practical to package or require platform-specific binaries. It i
 the decompression function, under the assumption that will be the most common use-case that
 might have that restriction. It is hundreds of times slower than the reference `brotli`.
 
-This is a hand port of the decompression portion of the Javascript project that is
+This code began as a hand port of the decompression portion of the Javascript project that is
 itself a hand port of the C code of the reference implementation.
 
 * JavaScript port of brotli [brotli.js](https://github.com/devongovett/brotli.js)
